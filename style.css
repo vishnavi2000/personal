@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 600;
+}
+body,
+nav,
+.card,
+.list-group-item {
+  background-color: #0a192f !important;
+}
+
+.card,
+.card-header,
+.card-body {
+  border-color: #64ffda !important;
+}
+
+h1 {
+  color: #ccd6f6 !important;
+}
+
+#googleForm input,
+#message {
+  color: #fff;
+  background-color: #0a192f;
+  border-color: transparent !important;
+  border-bottom-color: #ced4da;
+}
+#googleForm input:focus,
+#message:focus {
+  border-color: #64ffda !important;
+}
+
+
+.greetings,
+#nav-brand {
+  color: #64ffda !important;
+  font-weight: 500 !important;
+}
+.grey-txt,
+.card,
+.nav-link,
+.list-group-item,
+.text {
+  color: #8892b0 !important;
+}
+
+.form-control.success {
+  border-color: #64ffda;
+}
+.form-control.error {
+  border-color: #dc3545;
+}
+.form-error {
+  color: #dc3545;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+form .form-control:focus {
+  border-color: #8892b0 !important;
+  box-shadow: none;
+}
